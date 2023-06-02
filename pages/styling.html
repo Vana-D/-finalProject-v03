@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/prism.css">
              
-        
+        <link rel="stylesheet" href="../css/index.css">     
               
                       
                                
@@ -63,7 +63,7 @@
                 <ul class="aside-list">
                     <li><a href="#styling-reset">Reset</a></li>
                     <li><a href="#styling-grid">Grid</a></li>
-                    <li><a href="#styling-typing">Typing</a></li>
+                    <li><a href="#styling-typing">Typography</a></li>
                     <li><a href="#styling-table">Table</a></li>
                     <li><a href="#styling-forms">Forms</a></li>
                     <li><a href="#styling-btn">Buttons</a></li>
@@ -87,7 +87,7 @@
             
             <article class="article-01">
                 <h2>Styling</h2>
-
+<!-- reset  -->
                 <section id="styling-reset">
                     <h3>Reset</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>   
@@ -105,13 +105,80 @@
                         </code>
                     </pre>                     
                 </section>
-
+<!-- Grid -->
                 <section id="styling-grid">
                     <h3>Grid</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
+                    <p>The grid is a 12-column fluid grid with a max width of 960px, that shrinks with the browser/device at smaller sizes. The max width can be changed with one line of CSS and all columns will resize accordingly. The syntax is simple and it makes coding responsive much easier. Give it a try and resize the browser.</p>    
                     <br>
                     <a href="#" class="snippet-sample"><p>Click here to see the sample</p></a>
-
+                    <section class="sample">
+                        <section class="grid-sample">
+                            <section class="grid-inner-sample">
+                                <h2>Grid Layout</h2>
+                                <div class="grid-container" id="example-grid">
+                                    <div class="row">
+                                        <div class="columns-12">Twelve</div>
+                                    </div>
+                        
+                                    <div class="row">
+                                        <div class="columns-1">One</div>
+                                        <div class="columns-11">Eleven </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-2">Two</div>
+                                        <div class="columns-10">Ten</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-3">Three</div>
+                                        <div class="columns-9">Nine</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-4">Four</div>
+                                        <div class="columns-8">Eight</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-5">Five</div>
+                                        <div class="columns-7">Seven</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-6">Six</div>
+                                        <div class="columns-6">Six</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="columns-7">Seven</div>
+                                        <div class="columns-5">Five</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-8">Eight</div>
+                                        <div class="columns-4">Four</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="columns-9">Nine</div>
+                                        <div class="columns-3">Three</div>
+                                    </div>
+                        
+                                    <div class="row">
+                                        <div class="columns-10">Ten</div>
+                                        <div class="columns-2">Two</div>
+                                    </div>
+                        
+                                    <div class="row">
+                                        <div class="columns-11">Eleven</div>
+                                        <div class="columns-1">One</div>
+                                    </div>
+                    
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+                        
                     <pre>
                         <code class="language-html">
 &lt;body&gt;
@@ -120,22 +187,65 @@
                         </code>
                     </pre>
                 </section>
-
+<!-- Typography  -->
                 <section id="styling-typing">
-                    <h3>Typing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>  
+                    <h3>Typography</h3>
+                    <p>Type is all set with the rems, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code>  font-size property.</p>  
+                    <br>
+                    <p><strong>The typography base</strong> is <a href="http://www.google.com/fonts/specimen/Poppins">Poppins</a> served by Google.</p>
                     <br>
                     <a href="#" class="snippet-sample"><p>Click here to see the sample</p></a>  
-
+                    <section class="sample">
+                        <section class="typography-sample">
+                            <section class="typography-inner-sample">
+                                <h2 >Typography</h2>
+                                <section class="ff-poppins">
+                                    <h1 class="ff-poppins">Poppins</h1>
+                                    <h1 class="ff-poppins">Heading 1</h1>
+                                    <h2 class="ff-poppins">Heading 2</h2>
+                                    <h3 class="ff-poppins">Heading 3</h3>
+                                    <h4 class="ff-poppins">Heading 4</h4>
+                                    <h5 class="ff-poppins">Heading 5</h5>
+                                    <h6 class="ff-poppins">Heading 6</h6>
+                                    <p class="fw-800">Font Weight 800</p>
+                                    <p class="fw-700">Font Weight 700</p>
+                                    <p class="fw-600">Font Weight 600</p>
+                                    <p class="fw-500">Font Weight 500</p>
+                                    <p class="fw-400">Font Weight 400</p>
+                                    <p class="fw-300">Font Weight 300</p>
+                                    <p class="fw-200">Font Weight 200</p>
+                                    <p class="fw-100">Font Weight 100</p>
+                                </section>
+            
+                            </section>
+                        </section>
+                    </section>
+                        
                     <pre>
                         <code class="language-html">
 &lt;body&gt;
-    &lt;p&gt;Code is here&lt;/p&gt;        
+    &lt;section&gt;
+        &lt;h1&gt;Poppins&lt;/h1&gt;
+        &lt;h1&gt;Heading 1&lt;/h1&gt;
+        &lt;h2&gt;Heading 2&lt;/h2&gt;
+        &lt;h3&gt;Heading 3&lt;/h3&gt;
+        &lt;h4&gt;Heading 4&lt;/h4&gt;
+        &lt;h5&gt;Heading 5&lt;/h5&gt;
+        &lt;h6&gt;Heading 6&lt;/h6&gt;
+        &lt;p class="fw-800"&gt;Font Weight 800&lt;/p&gt;
+        &lt;p class="fw-700"&gt;Font Weight 700&lt;/p&gt;
+        &lt;p class="fw-600"&gt;Font Weight 600&lt;/p&gt;
+        &lt;p class="fw-500"&gt;Font Weight 500&lt;/p&gt;
+        &lt;p class="fw-400"&gt;Font Weight 400&lt;/p&gt;
+        &lt;p class="fw-300"&gt;Font Weight 300&lt;/p&gt;
+        &lt;p class="fw-200"&gt;Font Weight 200&lt;/p&gt;
+        &lt;p class="fw-100"&gt;Font Weight 100&lt;p&gt;
+    &lt;/section&gt;      
 &lt;/body&gt;
                         </code>
                     </pre>
                 </section>
-
+<!-- Table  -->
                 <section id="styling-table">
                     <h3>Table</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>  
@@ -152,7 +262,7 @@
 
                     
                 </section>
-
+<!-- Forms -->
                 <section id="styling-forms">
                     <h3>Forms</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>  
@@ -167,7 +277,7 @@
                         </code>
                     </pre>
                 </section>
-
+<!-- Buttons -->
                 <section id="styling-btn">
                     <h3>Buttons</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
@@ -182,24 +292,35 @@
                         </code>
                     </pre>                  
                 </section>
-
+<!-- Images  -->
                 <section id="styling-img">
-                    <h3>Images</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
+                    <h3>Responsive Images</h3>
+                    <p>Responsive images will automatically adjust to fit the size of the screen. Add the class responsive-img to your img element and resize the browser window to see the responsive effect:</p>    
                     <br>
                     <a href="#" class="snippet-sample"><p>Click here to see the sample</p></a>
-
+                    <section class="sample">
+                        <section class="images-sample">
+                            <section class="images-inner-sample">
+                                <h2>Responsive Images</h2>
+                                <div>
+                                    <img src="../images/classroom-g672134832_1280.jpg" alt="classroom" class="responsive-img">
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+                        
                     <pre>
                         <code class="language-html">
 &lt;body&gt;
-    &lt;p&gt;Code is here&lt;/p&gt;        
+    &lt;p&gt;Code is here&lt;/p&gt;
+    &lt;img src="/images/classroom" alt="classroom" class="responsive-img"&gt;        
 &lt;/body&gt;
                         </code>
                     </pre>              
 
                     
                 </section>
-
+<!-- Helper -->
                 <section id="styling-helper">
                     <h3>Helper</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
@@ -214,22 +335,22 @@
                         </code>
                     </pre>          
                 </section>
-
+<!-- No Print  -->
                 <section id="styling-noprint">
                     <h3>No-print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
+                    <p>The noPrint class is used to hide an element when printing web pages. Insert the noPrint class into the element that needs to hidden at printing.</p>    
                     <br>
                     <a href="#" class="snippet-sample"><p>Click here to see the sample</p></a>
 
                     <pre>
                         <code class="language-html">
 &lt;body&gt;
-    &lt;p&gt;Code is here&lt;/p&gt;        
+    &lt;p class="noPrint"&gt;Code is here&lt;/p&gt;        
 &lt;/body&gt;
                         </code>
                     </pre>            
                 </section>
-
+<!-- Icons  -->
                 <section id="styling-icons">
                     <h3>Icons</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nihil necessitatibus consequatur voluptas ab modi cumque, vitae a quod? Aperiam, dolores! Et soluta ut tenetur voluptatem velit quia eveniet consectetur.</p>    
